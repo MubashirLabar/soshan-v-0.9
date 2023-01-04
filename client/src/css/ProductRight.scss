@@ -1,0 +1,244 @@
+/* Do not delete this file, this may cause break your product page */
+
+.right_panel {
+  width: 50%;
+  font-size: 12pt;
+}
+.first_section {
+  font-size: 12pt;
+  button {
+    font-size: 12pt;
+    width: 100%;
+  }
+  .right_section {
+    background-color: #26fcfb;
+    padding-right: 0;
+    padding-left: 0;
+    .btn {
+      outline: none !important;
+    }
+  }
+
+  .left_section {
+    border-right: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.second_section {
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #000;
+  div {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .para_1 {
+    display: flex;
+    align-items: center;
+    word-spacing: 28px;
+    letter-spacing: 0.063rem;
+  }
+  .para_2 {
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.063rem;
+    word-spacing: 24.6px;
+  }
+}
+.third_section {
+  .left_section {
+    border-right: 1px solid #000;
+    ul {
+      list-style: none;
+      letter-spacing: 0.063rem;
+    }
+  }
+  .right_section {
+    ul {
+      list-style: none;
+    }
+  }
+}
+.fourth_section {
+  border-top: 1px solid #000;
+  .paraPoint {
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.063rem;
+  }
+  .paraPoint.para1 {
+    word-spacing: 36.9px;
+  }
+  .paraPoint.para2.eastern {
+    word-spacing: 36.4px;
+  }
+  .paraPoint.para2 {
+    word-spacing: 33.4px;
+  }
+  .paraPoint.para3 {
+    word-spacing: 32.8px;
+  }
+  .paraPoint.para4 {
+    word-spacing: 34.5px;
+  }
+  .paraPoint.para5 {
+    word-spacing: 35.2px;
+  }
+}
+.newCleanBtn {
+  font-size: 12pt !important;
+  border: none !important;
+  outline: none !important;
+  letter-spacing: 0.063rem !important;
+}
+
+.header1 {
+  font-size: 12pt !important;
+  border: none !important;
+  outline: none !important;
+  letter-spacing: 0.063rem;
+}
+.header2 {
+  font-size: 12pt !important;
+  border: none !important;
+  outline: none !important;
+  letter-spacing: 0.063rem;
+}
+
+.slidePane {
+  width: 50% !important;
+  background-color: #f0eeee !important;
+}
+.imgPane {
+  background-color: #f0eeee !important;
+  width: 50% !important;
+}
+
+.slide-container {
+  width: 100%;
+  height: 80%;
+  .slide-main-img {
+    width: 100%;
+  }
+  // .slide-main-img:hover {
+  //   transform: scale(1.1);
+  //   transition: ease-in-out 0.5s;
+  // }
+}
+.slide-pane__content {
+  padding-left: 22px !important;
+  padding-right: 22px !important;
+}
+
+.nav.default-nav {
+  background: transparent !important;
+}
+.nav.default-nav svg {
+  width: 10px !important;
+  height: 10px !important;
+}
+
+@media (min-width: 882px) {
+  .extraMargin {
+    margin-left: 75px !important;
+    margin-right: 75px !important;
+  }
+  .variationSelect {
+    margin-left: 50px !important;
+  }
+  .header {
+    padding-left: 80px;
+    padding-right: 75px;
+  }
+}
+@media (max-width: 882px) {
+  .slide-container {
+    width: 95%;
+    height: 100%;
+  }
+  .subtotalZero {
+    font-size: 0.8rem;
+  }
+  .slidePane {
+    width: 100% !important;
+  }
+  .imgPane {
+    background-color: #f0eeee !important;
+    width: 100% !important;
+  }
+  .slide-pane__content {
+    padding-left: 20px !important;
+    padding-right: 26px !important;
+  }
+  .right_panel {
+    width: 100%;
+    font-size: 9pt;
+    text-align: justify !important;
+  }
+  .first_section {
+    font-size: 12pt;
+    button {
+      font-size: 12pt;
+      letter-spacing: 0.063rem;
+    }
+    .left_section {
+      h4 {
+        letter-spacing: 0.063rem;
+      }
+    }
+  }
+  .second_section {
+    .para_1 {
+      letter-spacing: 0.063rem;
+      word-spacing: 5.2px;
+    }
+    .para_2 {
+      letter-spacing: 0.063rem;
+      word-spacing: 5px;
+    }
+  }
+  .third_section {
+    .left_section {
+      ul {
+        letter-spacing: 0.063rem;
+      }
+    }
+  }
+  .fourth_section {
+    .paraPoint {
+      letter-spacing: 0.063rem;
+      word-spacing: 9.9px;
+    }
+    .paraPoint.para1 {
+      word-spacing: 9.5px;
+    }
+    .paraPoint.para2.eastern {
+      word-spacing: 11.7px;
+    }
+    .paraPoint.para2 {
+      word-spacing: 9.7px;
+    }
+
+    .paraPoint.para3 {
+      word-spacing: 9.6px;
+    }
+    .paraPoint.para4 {
+      word-spacing: 10.3px;
+    }
+    .paraPoint.para5 {
+      word-spacing: 10.9px;
+    }
+  }
+
+  .newCleanBtn {
+    font-size: 9pt !important;
+    letter-spacing: 0.063rem !important;
+  }
+  .header1 {
+    font-size: 9pt !important;
+  }
+  .header2 {
+    font-size: 9pt !important;
+  }
+}
